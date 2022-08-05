@@ -39,8 +39,8 @@ jobs:
           context: ./src
           push: true
           tags:
-            mjpaall/kube-news:latest
-            mjpaall/kube-news:${{github.run_number}}
+            mjpaall/kube-news1:latest
+            mjpaall/kube-news1:${{github.run_number}}
           
       
    
